@@ -1,0 +1,7 @@
+base   jquerymigrate
+author Henry Pan
+email  dokuwiki@phy25.com
+date   2020-02-22
+name   jquerymigrate plugin
+desc   Adds production/development version of jquery-migrate script to DokuWiki
+url    https://www.dokuwiki.org/plugin:jquerymigrate
