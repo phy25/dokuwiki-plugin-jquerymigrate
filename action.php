@@ -41,7 +41,7 @@ class action_plugin_jquerymigrate extends DokuWiki_Action_Plugin
     public function handle_confutil_cdn_select(Doku_Event $event, $param)
     {
         global $conf;
-        $dev_string = $this->getConf('dev') ? '' : '.min';
+        $dev_string = $conf['compress'] ? '.min' : '';
         $version = $this->getConf('version');
 
         // remove bundled jqm so prevent conflict

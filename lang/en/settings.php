@@ -6,5 +6,4 @@
  */
 
 // keys need to match the config setting name
-$lang['dev']     = 'Use uncompressed, development version';
 $lang['version'] = 'jQuery migrate version (only applicable if using jquerycdn)';
